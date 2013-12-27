@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/boardImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/pc_duino" />
+
+    <RelativeLayout
+        android:id="@+id/controlsLyt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/boardImg"
+        android:background="#EEEEEE"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/pinLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPIO:"
+            android:textSize="26sp" />
+
+        <Spinner
+            android:id="@+id/pinSpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pinLbl"
+            android:entries="@array/pins" />
+
+        <TextView
+            android:id="@+id/modeLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pinSpn"
+            android:layout_marginTop="20dp"
+            android:text="Mode:"
+            android:textSize="26sp" />
+
+        <Spinner
+            android:id="@+id/modeSpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pinSpn"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/modeLbl"
+            android:entries="@array/modes" />
+
+        <TextView
+            android:id="@+id/stateLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/modeSpn"
+            android:layout_marginTop="20dp"
+            android:text="State:"
+            android:textSize="26sp" />
+
+        <Spinner
+            android:id="@+id/stateSpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/modeSpn"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/stateLbl"
+            android:entries="@array/states" />
+
+        <Button
+            android:id="@+id/applyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stateSpn"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Apply"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

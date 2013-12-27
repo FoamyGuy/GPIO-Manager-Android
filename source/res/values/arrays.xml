@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pins">
+        <item >gpio0</item>
+        <item >gpio1</item>
+        <item >gpio2</item>
+        <item >gpio3</item>
+        <item >gpio4</item>
+        <item >gpio5</item>
+        <item >gpio6</item>
+        <item >gpio7</item>
+        <item >gpio8</item>
+        <item >gpio9</item>
+        <item >gpio9</item>
+        <item >gpio10</item>
+        <item >gpio11</item>
+        <item >gpio12</item>
+        <item >gpio13</item>
+        <item >gpio14</item>
+        <item >gpio15</item>
+        <item >gpio16</item>
+        <item >gpio17</item>
+
+    </string-array>
+    <string-array name="modes">
+        <item >OUTPUT</item>
+        <item >INPUT</item>
+        <item >INPUT PULL UP</item>
+    </string-array>
+    
+    <string-array name="states">
+        <item >HIGH</item>
+        <item >LOW</item>
+        
+    </string-array>
+    
+</resources>

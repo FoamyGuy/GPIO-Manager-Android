@@ -2,8 +2,10 @@ GPIO-Manager-Android
 ====================
 
 ### Android Version
-This is an Android version of the original Swing version located here: https://github.com/MohammadAdib/GPIO-Manager
-originally created by: Mohammad Adib
+This is an Android version of the original Swing program located here: https://github.com/MohammadAdib/GPIO-Manager
+
+Originally created by: Mohammad Adib
+
 Thank you to Mohammad for providing the original app, and the GPIO_Pin class.
 
 ====================

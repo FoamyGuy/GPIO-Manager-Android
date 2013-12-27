@@ -1,6 +1,8 @@
 GPIO-Manager-Android
 ====================
 
+This program was developed for the pcDuino
+
 ### Android Version
 This is an Android version of the original Swing program located here: https://github.com/MohammadAdib/GPIO-Manager
 
@@ -9,8 +11,6 @@ Originally created by: Mohammad Adib
 Thank you to Mohammad for providing the original app, and the GPIO_Pin class.
 
 ====================
-
-This program was developed for the pcDuino
 
 ### Functionality
 GPIO Manager displays a GUI showing the locations of the different GPIO pins on the pcDuino Board.
